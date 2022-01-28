@@ -23,7 +23,7 @@ work on the project.
 
 ## Zip Movies — a movie database browser app
 
-You'll build a small Swift application that will fetch a list of movies from a
+You'll build a small Android app in Kotlin that will fetch a list of movies from a
 TMDB REST API(https://developers.themoviedb.org/3/movies/get-top-rated-movies).
 
 ### Requirements
