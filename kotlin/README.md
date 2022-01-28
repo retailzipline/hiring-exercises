@@ -1,4 +1,4 @@
-# Zipline Swift Assignment
+# Zipline Kotlin Assignment
 
 This is the Zipline Kotlin take-home coding exercise.
 
