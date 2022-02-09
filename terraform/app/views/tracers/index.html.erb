@@ -1,0 +1,7 @@
+Latest Message: <%= Tracer.latest&.message %>
+
+<%= form_for @tracer do |form| %>
+  <%= form.label :message, "Message:" %>
+  <%= form.text_field :message %>
+  <%= form.submit "Fire" %>
+<% end %>

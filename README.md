@@ -5,3 +5,4 @@ Programming Exercises for Evaluating Candidates. Please see the individual folde
 - [Backend](/grouping)
 - [Frontend](/slideshow)
 - [Mobile](/swift)
+- [Dev/Ops](/terraform)
