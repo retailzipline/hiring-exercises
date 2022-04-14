@@ -4,6 +4,7 @@ Programming Exercises for Evaluating Candidates. Please see the individual folde
 
 - [Backend](/grouping)
 - [Frontend](/slideshow)
-- [Mobile](/swift)
+- [iOS (Swift)](/swift)
+- [Android (Kotlin)](/kotlin)
 - [Dev/Ops](/terraform)
 - [Support](/support)
