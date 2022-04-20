@@ -38,9 +38,11 @@ account on Basecamp, it's free.
 
 - **Build a test suite that runs the provided user scenarios**. We're
   considering using Playwright, Cypress, or Selenium at Zipline, but we're
-  excited to see what framework you like most, and why.
+  excited to see what framework you like most, and why. No code testing services
+  are fine, as long as you elaborate your approach.
 - **Provide instructions on how to run the suite from CLI**. The suite needs to
-  run on Linux, and Mac OS.
+  run on Linux, and Mac OS. If you choose to use a no code platform, explain how
+  we can run the tests.
 - **You can use any libraries and dependencies you want**, as long as you
   elaborate on why you chose to use them in the README of your submission.
 - If your suite needs any dependencies installed to run, **please provide
@@ -48,7 +50,9 @@ account on Basecamp, it's free.
 - Provide a plan, and launch artifacts (`.circle.yaml` or github action spec?)
   on how we should run the suite in production. We're using Github Actions, and
   CircleCI, but feel free to use any runner you want, as long as we can hook
-  GitHub into it to trigger test runs. Pseudocode is fine.
+  GitHub into it to trigger test runs. Pseudocode is fine. If you'll opt to use
+  a no code platform, that's fine, but please document how you would plug this
+  platform into our CI and reporting tools (i.e. datadog).
 - Please provide a plan on how we'll be notified on test failures on this suite.
   Suite does not have to report runs itself, if you decide to run it with GitHub
   actions, for example.
@@ -66,7 +70,19 @@ Please build a suite that covers four scenarios:
   sign in page, and fill in invalid email and password, click sign in button.
   The login should fail, and I should see the login page again, with an error
   message.
-- **Posting a message in a project**: TBD
+- **Posting a message in a project**: As a user, I can:
+  - Log in
+  - Click into pre-existing project (you can create the project for testing
+    manually. It's fine to hard-code which project the test suit will click
+    into).
+  - Click into it's Message Board
+  - Open the new Message form
+  - Type a test message. We're not testing Basecamp's WYSIWYG editor, so you
+    don't have to paste any complex markup or upload images.
+  - Click on the Post button
+  - You should be redirected to the published message
+  - You can navigate back
+  - The list of messages should include the message that you've just posted.
 - **Posting a comment in a a message, and seeing that comment without page
   reload on another session**. This one is more tricky, and will require running
   two sessions in your test scenario. In one session, the user logs in and opens
@@ -94,3 +110,11 @@ Please build a suite that covers four scenarios:
 
 - Please push your code to a private github repository. Do not fork this repo.
 - When you're done, invite @ccampbellgit and @nategadzhi to the repository.
+
+## Additional questions?
+
+This assignment is designed to be close to what you'll experience working with
+us, but I'm (@nategadzhi) pretty sure I've missed a thing or two when I posted
+it. So if you have any questions, please don't hesitate to reach out to us and
+just ask. We'll be happy to help clarify the assignment and update the
+description.
