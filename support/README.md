@@ -34,7 +34,7 @@ eg. A matching type named same_email might make use of an algorithm that matches
 
 ## Output
 
-The expected output is a renamed copy of the original CSV file, but with an additional unique identifier prepended to the row to indicate the same person based on the matcher.
+The expected output is a renamed copy of the original CSV file, but with an additional unique identifier (eg. user_id) prepended to the row to indicate the same person based on the matcher.
 
 <br>
 
