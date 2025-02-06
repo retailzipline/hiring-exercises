@@ -50,7 +50,7 @@ The expected output is a renamed copy of the original CSV file, but with an addi
 
 ## CSV Files
 
-Three sample input files are included. Each file should be processed independently by the resulting code.
+Please look at the three sample input files that are provided. Each file should be processed independently by the resulting code.
 
 <br>
 
@@ -62,6 +62,7 @@ Three sample input files are included. Each file should be processed independent
 
 ## Implement Matching Types
 - Can it match on a single column?
+- Can it match similar data with slightly different formats?
 - Do similar columns match to one another?
 - Are you able to use multiple matchers?
 
