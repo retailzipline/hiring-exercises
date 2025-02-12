@@ -32,9 +32,9 @@ eg. A matching type named same_email might make use of an algorithm that matches
 
 <br>
 
-## Output
+## Expected Output
 
-The expected output is a renamed copy of the original CSV file, but with an additional unique identifier (eg. user_id) prepended to the row to indicate the same person based on the matcher.
+The output file should be a new file containing all of the original input file's contents. Please do not overwrite the original input file. Prepend a `user_id` column to the output data and use this to group matching individuals as specified by the program's input.
 
 <br>
 
