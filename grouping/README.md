@@ -11,8 +11,10 @@ The resulting program should allow us to test at least three matching types:
 ## Guidelines
 
 * **Please DO NOT fork this repository with your solution**
-* Use any language you want, as long as it can be compiled on OSX
+* You should use Ruby to complete this assignment.
 * Only use code that you have license to use
+* Your submission should be complete, including the kinds of tests, documentation and other artifacts you'd normally provide as part of a pull request or finished solution.
+* Bear in mind that our interviewers will need to run your code to evaluate it, so consider dependencies carefully.
 * Don't hesitate to ask us any questions to clarify the project
 
 ## Resources
