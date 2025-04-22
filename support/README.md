@@ -3,7 +3,7 @@
 The goal of this exercise is to identify rows in a CSV file that
 __may__ represent the __same person__ based on __Matching Type(s)__ (definition below).
 
-The resulting program should allow us to process **at least** three matching types:
+The resulting program should allow us to process three matching scenarios:
  - one that matches records with the same email address
  - one that matches records with the same phone number
  - one that matches records with the same email address **OR** the same phone number
@@ -13,7 +13,7 @@ The resulting program should allow us to process **at least** three matching typ
 # Guidelines
 
 ## Running your program
-The entry point for your code should be the `match_users.rb` file. The program should take at two or more parameters:
+The entry point for your code should be the `match_users.rb` file. The program should take at least two parameters:
 
 ```
 ruby match_users.rb <..one_or_more_matching_types> <input_filename.csv>
@@ -28,21 +28,21 @@ eg. `ruby match_users.rb email phone input2.csv`
 
 A matching type is a declaration of what logic should be used to compare the rows.
 
-eg. A matching type named "MatchEmail" or "EmailType" might make use of an algorithm that matches rows based on email 
-columns.
+eg. A matching type named `email` might make use of an algorithm that matches rows based on email columns.
 
 <br>
 
 ## Output
 
-The expected output is a renamed copy of the original CSV file, but with an additional identifier column (eg. user_id) 
-prepended to file to help match rows based on the specified matcher(s). Verifying your output file is advised.
+The output file should be a new file containing all of the original input file's contents. 
+Please do not overwrite the original input file.
+Prepend a `user_id` column to the output data file and use this to group matching individuals as specified by your program's input.
 
 <br>
 
 # Resources
 
-## Please **DO NOT** publically fork this repository
+## Please **DO NOT** publicly fork this repository
 * Instead, clone the repository and email your submission to us in a zip file
 * Use Ruby to complete this assignment
 * Use code that you have license to use, but try to limit the use of external libraries/gems
@@ -52,8 +52,7 @@ prepended to file to help match rows based on the specified matcher(s). Verifyin
 
 ## CSV Files
 
-Three unique sample input files have been provided as a reference. Your program should be able to process these files
-and at a minimum.
+Three unique sample input files have been provided as a reference. Your program should be able to process these files at a minimum.
 
 <br>
 
