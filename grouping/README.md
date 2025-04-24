@@ -18,7 +18,7 @@ The resulting program should allow us to test at least three matching types:
 ## Interface
 
 At a high level, the program should take at least two parameters. The input file
-and the matching type algorithm to be used.
+and the matching type algorithm.
 
 ## Output
 
@@ -29,9 +29,6 @@ identifier of the person each row represents __prepended__ to the row.
 
 Three sample input files are included. All files should be successfully
 processed by the resulting code.
-
-Please note, there is an edge case that these sample files __do not__ include
-that we will be checking your solution against.
 
 ## Guidelines
 
@@ -67,7 +64,6 @@ Some of the things we will be looking for (in no particular order)
 * Quality of the documentation
 * Naming conventions and design patterns
 * Effective selection and use of gems/libraries
-* Catching the edge case (essential for a high score on performance)
 
 ## FAQ:
 
@@ -79,9 +75,6 @@ Some of the things we will be looking for (in no particular order)
 
 **How do I sumbit my submission?**
 * Please post your solution publicly on github and send us the link
-
-**How long do I have to complete the solution?**
-* Please submit your solution within a week of receiving this document
 
 **Can I ask questions?**
 * 100%. Assumption is the parent of all mistakes :)
