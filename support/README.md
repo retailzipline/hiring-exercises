@@ -46,7 +46,7 @@ only:
 ruby match_users.rb email input1.csv
 ```
 
-While this command would allow you to identify duplicate users in the `input2.csv` file by **either emails or phone
+While this command would allow you to identify duplicate users in the `input2.csv` file by **either emails OR phone
 numbers**:
 
 ```bash
